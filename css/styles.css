@@ -74,11 +74,18 @@ select {
 }
 body {
   background-color: #1A2A33;
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
 }
 
 body {
   font-size: 14px;
   font-family: "Outfit", sans-serif;
+}
+
+.new-game-menu {
+  max-width: 327px;
 }
 
 /*# sourceMappingURL=styles.css.map */
