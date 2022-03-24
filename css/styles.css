@@ -86,6 +86,32 @@ body {
 
 .new-game-menu {
   max-width: 327px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.xo-logo {
+  margin-bottom: 2rem;
+  display: flex;
+}
+
+.xo-logo img {
+  max-width: 32px;
+  max-height: 32px;
+}
+
+.xo-logo img:first-of-type {
+  margin-right: 0.6em;
+}
+
+.player1-mark-select {
+  width: 100%;
+  padding: 1.5rem;
+  background-color: #1F3641;
+  box-shadow: inset 0px -8px 0px #10212A;
+  border-radius: 15px;
 }
 
 /*# sourceMappingURL=styles.css.map */
