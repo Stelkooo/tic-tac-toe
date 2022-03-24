@@ -72,5 +72,9 @@ select {
     scroll-behavior: auto !important;
   }
 }
+body {
+  font-size: 14px;
+  font-family: "Outfit", sans-serif;
+}
 
 /*# sourceMappingURL=styles.css.map */
