@@ -73,6 +73,10 @@ select {
   }
 }
 body {
+  background-color: #1A2A33;
+}
+
+body {
   font-size: 14px;
   font-family: "Outfit", sans-serif;
 }
