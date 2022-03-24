@@ -80,8 +80,29 @@ body {
 }
 
 body {
-  font-size: 14px;
   font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.8px;
+}
+
+.new-game-menu-buttons,
+.player1-mark-select-heading {
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.new-game-menu-buttons {
+  color: #1A2A33;
+}
+
+.player1-mark-select-heading, .player1-mark-select-tip {
+  color: #A8BFC9;
+}
+
+.player1-mark-select-tip {
+  opacity: 50%;
 }
 
 .new-game-menu {

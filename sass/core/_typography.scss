@@ -1,6 +1,23 @@
+@use "../abstracts/mixins" as *;
 @use "../abstracts/variables" as *;
 
 body {
-    font-size: $p-size;
     font-family: $outfit;
+    @include body;
+}
+.new-game-menu-buttons,
+.player1-mark-select-heading {
+    @include heading-xs;
+}
+.new-game-menu-buttons {
+    color: $dark-navy;
+}
+.player1-mark-select {
+    &-heading,
+    &-tip {
+        color: $silver;
+    }
+    &-tip {
+        opacity: 50%;
+    }
 }
